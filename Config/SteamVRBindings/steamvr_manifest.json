@@ -164,6 +164,10 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/Hammer",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d",
 			"type": "vector2"
 		},
@@ -440,6 +444,7 @@
 			"/actions/main/in/TeleportLeft": "TeleportLeft",
 			"/actions/main/in/GrabLeft": "GrabLeft",
 			"/actions/main/in/GrabRight": "GrabRight",
+			"/actions/main/in/Hammer": "Hammer",
 			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
 			"/actions/main/in/TeleportDirectionUp axis": "TeleportDirectionUp",
 			"/actions/main/in/TeleportDirectionRight axis": "TeleportDirectionRight",

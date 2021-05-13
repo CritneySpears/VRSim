@@ -74,6 +74,17 @@
 					}
 				},
 				{
+					"mode": "button",
+					"path": "/user/hand/right/input/b",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Hammer"
+						}
+					}
+				},
+				{
 					"mode": "joystick",
 					"path": "/user/hand/left/input/joystick",
 					"inputs":
@@ -129,5 +140,5 @@
 			]
 		}
 	},
-	"description": "Virtual Reality BP Game Template-14830424"
+	"description": "VR Sim-15973114"
 }
