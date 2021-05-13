@@ -168,6 +168,10 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/Ready Nail",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d",
 			"type": "vector2"
 		},
@@ -207,6 +211,10 @@
 		}
 	],
 	"default_bindings": [
+		{
+			"controller_type": "vive_tracker_handed",
+			"binding_url": "vive_tracker_handed.json"
+		},
 		{
 			"controller_type": "knuckles",
 			"binding_url": "knuckles.json"
@@ -298,10 +306,6 @@
 		{
 			"controller_type": "vive_tracker_keyboard",
 			"binding_url": "vive_tracker_keyboard.json"
-		},
-		{
-			"controller_type": "vive_tracker_handed",
-			"binding_url": "vive_tracker_handed.json"
 		},
 		{
 			"controller_type": "gamepad",
@@ -445,6 +449,7 @@
 			"/actions/main/in/GrabLeft": "GrabLeft",
 			"/actions/main/in/GrabRight": "GrabRight",
 			"/actions/main/in/Hammer": "Hammer",
+			"/actions/main/in/Ready Nail": "Ready Nail",
 			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
 			"/actions/main/in/TeleportDirectionUp axis": "TeleportDirectionUp",
 			"/actions/main/in/TeleportDirectionRight axis": "TeleportDirectionRight",
